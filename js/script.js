@@ -16,7 +16,8 @@ let creaAudio = audio => {
     sourceTag.src = audio;
     sourceTag.type = "audio/mp3";
     document.getElementById("bgMusic").appendChild(sourceTag);
-    bgMusicIsPlaying = true;
+    if (bgMusicIsPlaying) playBgAudio();
+    else stopBgAudio();
 }
 
 let playBgAudio = () => {
