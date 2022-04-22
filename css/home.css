@@ -15,3 +15,29 @@
     padding: 50px;
     font-size: 18px;
 }
+
+#toPersonalInfo {
+    text-decoration: none;
+    /* color: rgb(85, 85, 243); */
+    color: rgb(170, 29, 29);
+    transition: 300ms;
+}
+
+#toPersonalInfo:hover {
+    color: rgb(116, 3, 3);
+}
+
+#toDocs {
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+    transition: 300ms;
+}
+
+#toDocs:hover {
+    color: rgb(197, 145, 0);
+}
+
+footer>p>a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
