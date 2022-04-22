@@ -1,4 +1,4 @@
-let bgMusicIsPlaying = true;
+let bgMusicIsPlaying = true; // da cambiare a true se impostata su false
 
 document.body.onload = () => {
     creaAudio("../audio/MainMenuPacman.mp3");
