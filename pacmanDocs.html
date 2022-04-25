@@ -18,15 +18,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Barlow:wght@300&family=Libre+Franklin:wght@200&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/home.css" />
+        <link rel="stylesheet" type="text/css" href="css/pacmanDocs.css" />
         <script src="js/script.js" defer></script>
-        <script src="js/home.js" defer></script>
+        <script src="js/pacmanDocs.js" defer></script>
         
         <title>HOME</title>
     </head>
     <body>
         <header>
             <nav id="menu">
+                <button id="backHome">HOME</button>
                 <button id="giocaLaDemo">DEMO</button>
                 <button id="scarica">SCARICA</button>
                 <button id="gestBgAudio"></button>
@@ -35,29 +36,33 @@
             <h2>The Animation Incident</h2>
         </header>
         <main>
-            <div id="chiSiamo">
-                <a href="#" id="toPersonalInfo"><h3>Chi siamo?</h3></a>
-                <p>Siamo degli studenti iscritti all'indirizzo di informatica che stanno seguendo un corso riguardante la realtà virtuale.</p>
-                <p>NOMI:</p>
-                <p>Chandra Vance Adam</p>
-                <p>D'Aniello Lorenzo</p>
-                <p>Zini Filippo</p>
-            </div>
-
-            <div id="ilProgetto">
-                <h3>Il progetto</h3>
+            <div id="intro" class="bgYellow">
+                <h3>Introduzione</h3>
                 <p>
-                    Il progetto nasce durante la partecipazione ad un corso 
-                    sulla realtà aumentata chiamato: "AR-VR".<br/>
-                    L'idea si ispira al gioco targato Bandai Namco, la nostra
-                    concezione riguardante il progetto si basa sul riutilizzare
-                    le meccaniche di gioco per applicarle in un labirinto 3D
-                    con all'interno una versione "horror" di Pacman.<br/>
-                    Il gioco non solo è in prima persona, ma il giocatore si
-                    ritroverà direttamente all'interno del labirinto grazie al
-                    sistema di Realtà Virtuale (VR).
+                    Benvenuto!<br/>
+                    In questa sezione troverai la documentazione e una spiegazione<br/>
+                    più approfondita riguardante il gioco dedicato al celebre titolo: "Pacman".
                 </p>
-                <p><a href="pacmanDocs.html" id="toDocs">Clicca qui</a> per vedere la documentazione ufficiale del gioco!</p>
+            </div>
+            <div id="parag1" class="bgBlack">
+                <h3>Il gioco</h3>
+                <p>
+                    Come detto in precedenza (e se avete già giocato il gioco lo avrete capito)<br/>
+                    il gioco è ispirato a Pacman, il celebre gioco targato Bandai Namco e ideato da Tōru Iwatani.<br/>
+                    L'idea in sé è molto semplice: prendere il gioco Bandai Namco, renderlo 3D, horror e renderlo giocabile da VR (Virtual Reality).<br/>
+                    La parte più difficile? Realizzare i punti appena elencati senza molta esperienza nell'ambito della realizzazione di videogiochi.
+                </p>
+            </div>
+            <div id="parag2" class="bgYellow">
+                <h3>I software utilizzati</h3>
+                <p>
+                    Il progetto è nato su Unity, il motore grafico sviluppato da Unity Technologies.<br/>
+                    Visual Studio 2019 è stato utilizzato per la programmazione dei codici realizzati con il linguaggio C#.<br/>
+                    Per quanto riguarda la parte grafica abbiamo utilizzato Blender.
+                </p>
+                <img src="./img/unityImage.png" alt="Unity Icon" title="Unity Icon"/>
+                <img src="./img/VS19.png" alt="Visual Studio 19 Icon" title="Visual Studio 19 Icon" />
+                <img src="./img/blenderIcon.png" alt="Blender Icon" title="Blender Icon"/>
             </div>
         </main>
         <footer>
