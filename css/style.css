@@ -25,7 +25,7 @@ header {
     box-shadow: 5px 5px 10px 2px rgb(70, 70, 70);
 }
 
-#menu>button {
+#menu>button, select {
     background-color: transparent;
     border: 2px solid;
     color: rgb(255, 187, 0);
@@ -40,8 +40,13 @@ header {
     cursor: pointer;
 }
 
-#menu>button:hover {
+#menu>button:hover, select:hover {
     background-color: rgb(77, 77, 77);
+}
+
+option {
+    background-color: rgb(77, 77, 77);
+    border: none;
 }
 
 footer {
@@ -57,12 +62,12 @@ footer>p {
 
 }
 
-footer>p>a {
+footer>a {
     color: black;
     text-decoration: none;
     transition: 500ms;
 }
 
-footer>p>a:hover {
+footer>a:hover {
     color: rgb(46, 46, 46);
 }
