@@ -18,15 +18,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Barlow:wght@300&family=Libre+Franklin:wght@200&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/home.css" />
+        <link rel="stylesheet" type="text/css" href="css/pacmanDocs.css" />
         <script src="js/script.js" defer></script>
-        <script src="js/home.js" defer></script>
+        <script src="js/pacmanDocs.js" defer></script>
         
-        <title>HOME</title>
+        <title>DOCS</title>
     </head>
     <body>
         <header>
             <nav id="menu">
+                <button id="backHome">HOME</button>
                 <button id="giocaLaDemo"></button>
                 <button id="scarica"></button>
                 <button id="gestBgAudio"></button>
@@ -39,19 +40,24 @@
             <h2 id="sub2"></h2>
         </header>
         <main>
-            <div id="chiSiamo">
-                <a href="#" id="toPersonalInfo"><h3 id="personalInfo"></h3></a>
-                <p id="sez1"></p>
-                <p id="sez2"></p>
-                <p id="sez3"></p>
-                <p id="sez4"></p>
-                <p id="sez5"></p>
+            <div id="intro" class="bgYellow">
+                <h3 id="introTitle">Introduzione</h3>
+                <p id="sezI.1">
+                    Benvenuto!<br/>
+                    In questa sezione troverai la documentazione e una spiegazione<br/>
+                    più approfondita riguardante il gioco dedicato al celebre titolo: "Pacman".
+                </p>
             </div>
-
-            <div id="ilProgetto">
-                <h3 id="theProject"></h3>
-                <p id="sez1.1"></p>
-                <p id="sez2.1"></p>
+            <div id="parag1" class="bgBlack">
+                <h3 id="sezI.2"></h3>
+                <p id="sezI.3"></p>
+            </div>
+            <div id="parag2" class="bgYellow">
+                <h3 id="sezI.4"></h3>
+                <p id="sezI.5"></p>
+                <img src="./img/unityImage.png" alt="Unity Icon" title="Unity Icon"/>
+                <img src="./img/VS19.png" alt="Visual Studio 19 Icon" title="Visual Studio 19 Icon" />
+                <img src="./img/blenderIcon.png" alt="Blender Icon" title="Blender Icon"/>
             </div>
         </main>
         <footer>
